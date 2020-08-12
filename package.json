@@ -1,0 +1,20 @@
+{
+  "name": "prj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --experimental-modules cli.mjs 8000 mongodb+srv://Robert:Professional@cluster0-m5kjg.mongodb.net/test",
+    "server": "nodemon --experimental-modules cli.mjs 8000 mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass%20Community&ssl=false"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.5.9",
+    "nodemon": "^2.0.4"
+  }
+}
